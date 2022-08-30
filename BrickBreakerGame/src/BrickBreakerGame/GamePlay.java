@@ -87,7 +87,7 @@ public class GamePlay extends JPanel implements KeyListener,ActionListener{
 			g.drawString("YOU WON!!!, Scores " + score, 190, 300);
 			
 			g.setFont(new Font("serif", Font.BOLD,20));
-			g.drawString("Press Enter to Restart", 230, 350); 
+			g.drawString("Press Enter to continue to the next level!!", 230, 350); 
 			delay += 40;
 			success = true;
 		}
